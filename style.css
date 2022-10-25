@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/* ベース
+---------------------------------*/
+body {
+    color: #6C6C6F;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.75;
+    letter-spacing: 0;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* レイアウト
+-------------------------------------*/
+.l-inner {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.l-py8 {
+    padding: 80px 0;
+}
+
+.l-p6 {
+    padding: 60px;
+}
+
+.l-mb4 {
+    margin-bottom: 40px;
+}
+
+.l-mb7 {
+    margin-bottom: 70px;
+}
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.l-col2 {
+    width: 46%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+.l-max-width {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*color*/
+
+.l-bg-bule {
+    background-color: #123D88;
+    color: #fff;
+}
+
+.l-bg-lightbule {
+    background-color: #F7FAFF;
+}
+
+.l-bg-gray {
+    background-color: #505050;
+    color: #fff;
+}
+
+.l-bg-gray .unit-title,
+.l-bg-bule .unit-title {
+    color: #fff;
+}
+
+/*text*/
+.l-text-center {
+    text-align: center;
+}
+
+.l-text-center .btn,
+.l-text-center .card-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.l-header {
+    padding: 30px 0;
+}
+
+/* footer */
+.l-footer {
+    padding: 30px 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: right;
+}
+
+/* モジュール
+------------------------------------*/
+/* unit */
+.unit-catch {
+    color: #256BE6;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /*↑文字を大文字にする*/
+    margin-bottom: 20px;
+}
+
+.unit-title {
+    color: #262934;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+/* card */
+.card-icon {
+    margin-bottom: 40px
+}
+
+.card-title {
+    color: #2F2F35;
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-space {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.card .btn {
+    margin-top: 40px;
+}
+
+.card-border {
+    border: 1px solid #6C6C6F;
+}
+
+.card-border .card-title {
+    margin-bottom: 0;
+}
+
+/* btn */
+.btn {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    background-color: #256BE6;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 60px
+}
+
+.btn-info {
+    background-color: #2DBE61;
+}
+
+.btn-question {
+    background-color: #F87624;
+}
+
+.btn-outline {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
